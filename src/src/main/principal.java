@@ -2,11 +2,10 @@ package src.main;
 
 public class principal {
 
-  public static void main(String[] args) {
-    // TODO Auto-generated method stub
+	public static void main(String[] args) throws InterruptedException {
+		Game game = new Game();
+		game.playGame();
 
-
-
-  }
+	}
 
 }
